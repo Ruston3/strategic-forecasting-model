@@ -2,7 +2,7 @@
 
 ## Resources
 
-Check out the public [Tableau Dashboard](https://public.tableau.com/app/profile/christopher.cockerill/viz/MicrosoftStrategicMLFinancialModel/Dashboard1) for this project, and the full [Excel Model](/data/processed/Microsoft_Financial_Model_V2.xlsx) (downloads an .xlsx file).
+Check out the public [Tableau Dashboard](https://public.tableau.com/app/profile/christopher.cockerill/viz/MicrosoftStrategicMLFinancialModel/Dashboard1) for this project, and the full [Excel Model](/data/processed/Microsoft_Financial_Model_V2.xlsx) (Follow the link, and click on 'View Raw' to download the .xlsx file).
 
 ## Project Overview
 
