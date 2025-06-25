@@ -19,7 +19,12 @@ plotly>=5.15.0
 # Data handling
 openpyxl>=3.1.0
 xlrd>=2.0.0
+xlsxwriter>=3.2.0
 yfinance>=0.2.0
+lxml>=4.9.0
+html5lib>=1.1
+beautifulsoup4>=4.11.0
+requests>=2.31.0
 
 # Utilities
 jupyter>=1.0.0

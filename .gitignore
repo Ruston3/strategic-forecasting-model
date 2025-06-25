@@ -165,3 +165,10 @@ models/
 *.temp
 *.bak
 ~*
+
+# Claude-related files
+.claude/
+CLAUDE.md
+.claude-code/
+claude-config.json
+.claude-history/
