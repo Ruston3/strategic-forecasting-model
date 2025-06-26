@@ -33,13 +33,34 @@ In today's turbulent market conditions, Microsoft stands out as a compelling cas
   - Long format for Time Series modelling
 - **Tools**: Python (pandas, numpy)
 
-### 3. Statistical Forecasting
+### 3. Time-Series (Machine Learning) Forecasting
+
+Starting with the historical revenue:
+
+![Historic_Revenue](ML_Images/Revenue.png)
+
+The data was decomposed this line into its trend:
+
+![Trend](ML_Images/Decomp_Trend.png)
+
+Seasonality:
+
+![Seasonality](ML_Images/Decomp_Seasonality.png)
+
+and residual noise:
+
+![Noise](ML_Images/Decomp_Noise.png)
 
 Implemented two machine learning, time-series models for 8-quarter revenue forecasting:
 
-- **SARIMA Model**: Captured seasonal patterns and auto-regressive components. Excellent visualizations for the component breakdown.
+- **SARIMA Model**: Captured seasonal patterns and auto-regressive components.
+
+![Sarima](ML_Images/SARIMA_Revenue.png)
+
 - **Prophet Model**: Facebook's integrated forecasting tool for time series
 - **Results**: Both models achieved strong validation accuracy with 95% confidence intervals, with SARIMA slightly outperforming Prophet.
+
+![Comparison](ML_Images/SARIMA_vs_Prophet.png)
 
 ### 4. Financial Modeling (Excel)
 
