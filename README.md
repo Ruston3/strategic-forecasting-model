@@ -1,16 +1,16 @@
-# Microsoft Financial Analysis & Forecasting Model
+# Microsoft Financial Analysis and Forecasting Model
 
-## Resources
+## Resources uses
 
 Check out the public [Tableau Dashboard](https://public.tableau.com/app/profile/christopher.cockerill/viz/MicrosoftStrategicMLFinancialModel/Dashboard1) for this project, and the full [Excel Model](/data/processed/Microsoft_Financial_Model_V2.xlsx) (Follow the link, and click on 'View Raw' to download the .xlsx file).
 
-## Project Overview
+## Overview
 
-A financial analysis and forecasting piece examining Microsoft's financial performance, with a focus on their strategic positioning in the AI revolution. This project combines data engineering, statistical modeling, financial analysis, and business intelligence visualization to create insights and financial forecasts.
+A 2-year (8 quarter) forecast of Microsoft's financial performance, with a focus on their strategic positioning in the age of AI. This project is a combination of data engineering, statistical modeling and financial analysis.
 
 ## Microsoft
 
-In today's turbulent market conditions, Microsoft stands out as a compelling case study due to:
+In today's unpredictable market conditions, Microsoft stands out due to:
 
 - **AI Leadership**: Partnership with (and investment into) OpenAI and integration of ChatGPT capabilities into Microsoft Copilot
 - **B2B AI Commercialization**: Successfully monetizing AI through enterprise solutions (Copilot)
@@ -21,8 +21,8 @@ In today's turbulent market conditions, Microsoft stands out as a compelling cas
 
 ### 1. Data Acquisition & Engineering
 
-- **Source**: Data was sorced from the SEC's EDGAR database - 47 quarters of historical financial data summarised by accountants filing on behalf of Microsoft.
-- **Challenge**: Raw data from yfinance proved insufficient, requiring direct extraction from SEC filings
+- **Source**: I sourced the data from the SEC's EDGAR database - 47 quarters of historical financial data summarised by accountants filing on behalf of Microsoft.
+- **Challenge**: Raw data from the yfinance Python package proved insufficient, requiring direct extraction from SEC filings
 - **Solution**: Located and parsed financial summaries from submissions in several different formats.
 
 ### 2. Data Processing & Transformation
@@ -117,7 +117,7 @@ Created interactive visualizations including:
 
 ## Future Enhancements
 
-- Incorporate additional financial metrics (FCF)
+- Incorporate additional financial metrics (Free cash flow)
 - Expand analysis to competitor comparison within the techology and AI sector
 - Integrate auto updating feeds upon new quarterly 10Q or 10K filings
 
